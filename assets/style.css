@@ -1,10 +1,17 @@
+hmtl {
+    height: 100%;
+}
+
 body {
     background-color: black;
+    height: 100%;
 }
 
 .jumbotron {
     background-color: rgba(255, 98, 98, 0.76);
     margin-bottom: 5px;
+    border: black solid 5px;
+    border-radius: 5px;
 }
 
 .container {
@@ -13,13 +20,15 @@ body {
     border-radius: 5px;
 }
 
-.card {
+#card-img {
     background-color: rgba(255, 98, 98, 0.76);
+    margin-right: 40px;
 }
 
 .navbar {
     border: black solid 5px;
     border-radius: 5px;
+    background-color: rgb(255, 174, 0);
 }
 
 .work-title-text {
@@ -45,7 +54,4 @@ a {
     text-decoration: underline;
 }
 
-.photo-me {
-    margin-right: 30px;
-}
 

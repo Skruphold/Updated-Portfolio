@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+    <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar-brand" href="#">Hunter Coleman</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,10 +40,10 @@
     <div class="jumbotron jumbotron-fluid row">
         <div class="container">
           <h1 id="aboutMe" class="display-4">About Me</h1>
-          <p class="lead">Hi, My name is Hunter, I am currently attending the UofM coding bootcamp. This is the first major step towards a career in the coding industry. Which I am very excited about and can't wait to do it as a profession. A little bit about my personal life I am an avid hiker/photgrapher and have done a good amount of traveling. I also enjoy fashion, building computers, editing photo's, and painting.</p>
+          <p class="lead">Hi, My name is Hunter, I am currently attending the UofM coding bootcamp. This is the first major step towards a career in the coding industry. Which I am very excited about and can't wait to do it as a profession. A little bit about my personal life I am an avid hiker/photgrapher and have done a good amount of traveling. I also enjoy fashion, building computers, editing photo's, and tie dying clothing. I have always been facinated by coding but never really took the time to learn it. So I am really excited to dive in a learn as much as possible! This is a promising career and one I think will always be in need of determined developer. Also a career I can do anywhere in the world which works out nice for my photogaphy and hiking hobby.</p>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img class="photo-me" src="./assets/DSC05777.jpg" class="card-img-top" alt="Profile Photo">
+        <div class="card" id="card-img" style="width: 18rem;">
+            <img src="./assets/DSC05777.jpg" class="card-img-top" alt="Profile Photo">
         </div>
     </div>
     <div class="jumbotron jumbotron-fluid">
@@ -52,19 +52,19 @@
             <p class="work-title-text">Work</p>
           </div>
               <div class="card-deck">
-                <div class="card">
+                <div class="card-work">
                   <img src="./assets/project-1.PNG" class="card-img-top" alt="project-1">
                   <div class="card-footer">
                     <a href="https://skruphold.github.io/Project-1/">Project-1</a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card-work">
                   <img src="./assets/weatherDashboard.PNG" class="card-img-top" alt="Weather-Dashboard-H6">
                   <div class="card-footer">
                     <a href="https://skruphold.github.io/Weather-Dashboard-H6/">Weather-dashboard</a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card-work">
                   <img src="./assets/DayScheduler.PNG" class="card-img-top" alt="Day-Scheduler-H5">
                   <div class="card-footer">
                     <a href="https://skruphold.github.io/Day-Scheduler-H5/">Day-scheduler</a>
@@ -73,7 +73,7 @@
               </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-sm navbar-light bg-warning" id="contact-me">
+    <nav class="navbar navbar-expand-sm navbar-light" id="contact-me">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
