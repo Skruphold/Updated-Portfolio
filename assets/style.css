@@ -5,13 +5,15 @@ hmtl {
 body {
     background-color: black;
     height: 100%;
+    font-weight: bold;
 }
 
 .jumbotron {
-    background-color: rgba(255, 98, 98, 0.76);
-    margin-bottom: 5px;
+    background-color: rgba(188, 131, 253, 0.76);
+    margin-bottom: -5px;
     border: black solid 5px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
 }
 
 #card-img {
-    background-color: rgba(255, 98, 98, 0.76);
+    background-color: rgba(98, 255, 221, 0.76);
     margin-right: 40px;
 }
 
@@ -43,7 +45,7 @@ body {
 }
 
 #contact-me {
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 a {
@@ -54,4 +56,14 @@ a {
     text-decoration: underline;
 }
 
+#tech-background-1 {
+    background-image: url(./AdobeStock_181381754.jpeg);
+    background-size: 100%;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
 
+#tech-background-2 {
+    background-image: url(./papers.co-ne79-coding-screen-digital-art-blue-3840x2160.jpg);
+    background-size: 100%;
+}
