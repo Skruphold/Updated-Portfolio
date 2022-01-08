@@ -79,10 +79,10 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.card-img-top {
-    background-size: contain;
-}
-
 #welcome {
     font-size: 21px;
+}
+
+.w-25 {
+    margin-top: 35px;
 }
