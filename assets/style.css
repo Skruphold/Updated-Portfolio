@@ -48,12 +48,17 @@ body {
     margin-top: -10px;
 }
 
-a {
+.text {
     color: rgb(8, 8, 8);
+    text-decoration: underline;
 }
 
-.card-footer {
-    text-decoration: underline;
+.text:hover {
+    color: rgb(255, 174, 0);
+}
+
+.add-hover:hover {
+    color: rgba(255, 255, 255, 0.692);
 }
 
 #tech-background-1 {
