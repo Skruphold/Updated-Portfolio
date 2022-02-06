@@ -51,6 +51,7 @@ body {
 .text {
     color: rgb(8, 8, 8);
     text-decoration: underline;
+    font-size: 20px;
 }
 
 .text:hover {
