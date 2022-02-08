@@ -18,7 +18,7 @@ body {
 
 .container {
     background-color: rgba(255, 255, 255, 0.644);
-    border: black solid 2px;
+    border: rgb(255, 174, 0) solid 2px;
     border-radius: 5px;
 }
 
@@ -96,4 +96,8 @@ body {
 
 .w-25 {
     margin-top: 35px;
+}
+
+.title-color {
+    color: rgb(255, 174, 0);
 }
